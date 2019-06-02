@@ -60,7 +60,7 @@ if(isset($_GET['id'])){
                 </div>
                 <div class="form-group">
                     <label>Ngày tạo</label>
-                    <input type="text" class="form-control" name="created_at" value="<?php echo $created_at?>">
+                    <input type="date" class="form-control" name="created_at" value="<?php echo $created_at?>">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

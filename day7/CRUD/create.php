@@ -59,7 +59,7 @@ if(isset($_POST['name'])&&isset($_POST['quantity'])&&isset($_POST['brand'])&&iss
                 </div>
                 <div class="form-group">
                     <label>Ngày tạo</label>
-                    <input type="text" class="form-control" name="created_at" >
+                    <input type="date" class="form-control" name="created_at" >
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
